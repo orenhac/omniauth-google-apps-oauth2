@@ -15,7 +15,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = `git ls-files -- {spec}/*`.split("\n")
   gem.name          = "omniauth-google-apps-oauth2"
   gem.require_paths = ["lib"]
-  gem.version       = OmniAuth::GoogleOauth2::VERSION
+  gem.version       = OmniAuth::GoogleAppsOauth2::VERSION
 
   gem.add_runtime_dependency 'omniauth-oauth2'
 

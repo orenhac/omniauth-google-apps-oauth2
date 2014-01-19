@@ -13,7 +13,7 @@ Gem::Specification.new do |gem|
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   gem.files         = `git ls-files`.split("\n")
   gem.test_files    = `git ls-files -- {spec}/*`.split("\n")
-  gem.name          = "omniauth-google-oauth2"
+  gem.name          = "omniauth-google-apps-oauth2"
   gem.require_paths = ["lib"]
   gem.version       = OmniAuth::GoogleOauth2::VERSION
 

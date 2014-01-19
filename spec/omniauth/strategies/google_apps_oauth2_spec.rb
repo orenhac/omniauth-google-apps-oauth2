@@ -1,5 +1,5 @@
 require 'spec_helper'
-require 'omniauth-google-oauth2'
+require 'omniauth-google-apps-oauth2'
 
 describe OmniAuth::Strategies::GoogleAppsOauth2 do
   let(:request) { double('Request', :params => {}, :cookies => {}, :env => {}) }
